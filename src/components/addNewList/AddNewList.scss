@@ -1,0 +1,37 @@
+.addNewList {
+  height: 50px;
+  width: 278px;
+  padding: 16px 8px;
+  border: none;
+  background-color: #ecf1fd;
+  border-radius: 16px;
+  cursor: pointer;
+  &:active {
+    border: none;
+  }
+  &:focus {
+    border: none;
+  }
+  &-addCardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 32px;
+    background-color: transparent;
+    gap: 6px;
+    border: none;
+    color: #88819f;
+    transition: color 0.3s ease-in-out;
+    margin-top: 8px;
+    &:hover {
+      cursor: pointer;
+      color: #001c39;
+    }
+  }
+  input {
+    border: none;
+    background-color: transparent;
+    padding-left: 8px;
+  }
+}

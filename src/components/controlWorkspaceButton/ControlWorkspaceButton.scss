@@ -1,0 +1,30 @@
+.controlWorkspaceButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 6px;
+  height: 32px;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e7e6ec80;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+  }
+  &-default {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 0px #12033e1a, 0px 0px 1px 0px #12033e1a,
+      0px 1px 1px 0px #12033e17, 0px 3px 2px 0px #12033e0d,
+      0px 5px 2px 0px #12033e03, 0px 8px 2px 0px #12033e00;
+  }
+  &:disabled {
+    background-color: #b8b3c5;
+    color: #594f78;
+  }
+  &-save {
+    background-color: #007dfc;
+    color: #ffffff;
+  }
+}
